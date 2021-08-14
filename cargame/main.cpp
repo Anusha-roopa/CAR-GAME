@@ -424,7 +424,7 @@ int main(int argc, char *argv[])
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
     glutInitWindowSize(500,650);
     glutInitWindowPosition(200,20);
-    glutCreateWindow("Car Game-CG mini project");
+    glutCreateWindow("car game");
     glutDisplayFunc(display);
     glutSpecialFunc(spe_key);
     glutKeyboardFunc(processKeys );
